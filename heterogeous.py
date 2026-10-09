@@ -1,5 +1,7 @@
 a=[12,34,66,65,"savi","priya"]
-rev=a[::-3]
-if a == rev:
-    print("Split:",a.split)
-    
+num=[]
+for i in a:
+  if type[i]==int:
+    num.sort(rev=True)
+print(num[:2])
+  
