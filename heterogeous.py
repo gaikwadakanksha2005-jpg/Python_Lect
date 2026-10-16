@@ -5,6 +5,3 @@ for i in a:
   print()  
 
 
-
-#integer & float:store stu scores(marks)in int or floats
-#string: store stu name,subjects and display formatted messages

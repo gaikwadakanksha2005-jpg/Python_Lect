@@ -1,6 +1,6 @@
 name=input("Enter a name:")
 age=int(input("Enter a age:"))
-print(name,age ,sep="with")
+print(name,age ,sep=" with ")
 
 
 age=int(input("Enter a age:"))
