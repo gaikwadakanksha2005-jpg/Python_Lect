@@ -14,3 +14,10 @@ with open("sample.txt","r")as f:
     lines=f.readlines()
     for i in range(len(lines)):
         print(i+1,":",lines[i],end=" ")    
+
+with open("sample.txt","r")as f:
+    lines=f.readlines()
+with open("reversed.txt","w")as f:
+    for line in reversed(lines):
+        f.write(line)
+print("Lines Written in reverse order")       
