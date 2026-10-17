@@ -9,3 +9,8 @@ with open("sample.txt","a")as f:
 with open("sample.txt","r")as f:
     f.seek(5)
     print(f.read(10))
+
+with open("sample.txt","r")as f:
+    lines=f.readlines()
+    for i in range(len(lines)):
+        print(i+1,":",lines[i],end=" ")    
