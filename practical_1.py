@@ -21,3 +21,12 @@ with open("reversed.txt","w")as f:
     for line in reversed(lines):
         f.write(line)
 print("Lines Written in reverse order")       
+
+with open("sample.txt","r")as f:
+     text=f.read()
+words=text.split()
+freq={}
+for word in words:
+    word=word.lower()
+    freq[word]=freq.get(word,0)+1
+print(freq)    
