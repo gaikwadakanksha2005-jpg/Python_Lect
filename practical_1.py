@@ -39,3 +39,11 @@ with open("myfile.txt","r")as f:
         print("Files ara same")
     else:
         print("File are different")
+
+with open("sample.txt","r")as f:
+    lines=f.readlines()
+with open("Evenlines.txt","w")as f:
+    for i in range(len(lines)):
+        if i%2!=0:
+            f.write(lines[i])
+print("Even Number Lines copy successfully")          
