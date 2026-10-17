@@ -10,3 +10,4 @@ with open("sample.txt","r")as f:
 with open("sample.txt","r")as f:
     data=f.read()
 print("Total Character:",len(data))  
+
