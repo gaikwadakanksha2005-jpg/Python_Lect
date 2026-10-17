@@ -30,3 +30,12 @@ for word in words:
     word=word.lower()
     freq[word]=freq.get(word,0)+1
 print(freq)    
+
+with open("sample.txt","r")as f:
+    data=f.read()
+with open("myfile.txt","r")as f:
+    data1=f.read()
+    if data==data1:
+        print("Files ara same")
+    else:
+        print("File are different")
