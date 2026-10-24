@@ -1,4 +1,2 @@
-a={"x":10,"y":20}
-b={"z":30,"w":40}
-c=a|b
-print(c)
+for i in range(1,11):
+    print(i,"=",i*i)
