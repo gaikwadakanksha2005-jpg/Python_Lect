@@ -1,6 +1,4 @@
-a=[11,30,20,21,44,47,50]
-key=int(input("Enter elements:"))
-if key in a:
-    print("Element Found")
-else:
-    print("Element not found")    
+a={"x":10,"y":20}
+b={"z":30,"w":40}
+c=a|b
+print(c)
