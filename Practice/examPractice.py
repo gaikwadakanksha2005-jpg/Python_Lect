@@ -1,5 +1,5 @@
-n=int(input("Enter a Number:"))
-sq=n*n
-cu=n*n*n
-print("Square:",sq)
-print("Cube:",cu)
+s=input("Enter a string:")
+if s==s[::-1]:
+    print("palindrome")
+else:
+    print("not palindrome")    
