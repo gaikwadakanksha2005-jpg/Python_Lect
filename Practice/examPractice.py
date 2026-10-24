@@ -1,5 +1,3 @@
 a=[10,20,30,40]
-total=sum(a)
-avg=total/len(a)
-print("sum:",total)
-print("Avg:",avg)
+print("largest:",max(a))
+print("smaalest:",min(a))
