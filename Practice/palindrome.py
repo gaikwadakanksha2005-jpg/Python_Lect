@@ -1,7 +1,8 @@
-str=input("Enter a Name:")
-rev=str[::-1]
 
+
+str=input("Enter string:")
+rev=str[::-1]
 if str == rev:
-    print("Palindrom")
+    print("palindrom")
 else:
-    print("Not Palindrome")
+    print("not palindrom")    
