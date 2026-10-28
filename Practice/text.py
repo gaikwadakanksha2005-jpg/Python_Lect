@@ -52,7 +52,7 @@ numbers=[]
 
 #create a list 10 item and display sum of last 4 number
 list=[5,10,15,20,25,30,35,40,45,50]
-print("Sum oflast 4 items is:",sum(list[-4:]))
+print("Sum of last 4 items is:",sum(list[-4:]))
 
 #remove the items for the list located at 2 and 5 th position
 list.pop(1)
