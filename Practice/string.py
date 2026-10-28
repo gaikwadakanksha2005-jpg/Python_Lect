@@ -36,5 +36,5 @@ print("Simple split:",text.split())
 
 #11.join list of string with separator
 words=["python","is","fun"]
-print("".join(words))
+print(" ".join(words))
 
