@@ -6,3 +6,4 @@ if str == rev:
     print("palindrom")
 else:
     print("not palindrom")    
+

@@ -1,4 +1,10 @@
+n=7
+count=0
+for i in range(1,n+1):
+    if n%i==0:
+        count+=1
 
-str=input("Enter a Sentence:")
-print("counts of vowels:",str.count('AEIOUaeiou'))
-
+if count==2:
+    print("prime")
+else:
+    print("Not prime")            
