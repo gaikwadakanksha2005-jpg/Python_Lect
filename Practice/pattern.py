@@ -9,4 +9,6 @@ for i in range(1,n):
     print()                    
 
 
-    
+n=3
+sq=n*n
+print("Square:",sq)
