@@ -85,6 +85,5 @@ def analyse(orders):
         'fully_delivered': fully_delivered
     }
 
-
 result = analyse(orders)
 print(result)
